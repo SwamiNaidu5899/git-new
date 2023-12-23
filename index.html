@@ -3,9 +3,248 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Git-Deploy(Task-21-12)</title>
-</head>
+  <title>CSS Colors</title>
+    <link rel="shortcut icon" href="./w3 logo.png" type="image/x-icon">
+    <style>
+     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+  }
+  .container
+  {
+    height: 300vh;
+    width: 100%;
+  }
+  .row1
+  {
+    height: 115vh;
+    width: 100%;
+  }
+  .row2
+  {
+    height: 115vh;
+  }
+  .row3
+  {
+    height: 115vh;
+  }
+  .col1,.col2,.col3,.col4,.col5,.col6,.col7,.col8,.col9,.col10,.col11,.col12,.col13,.col14,.col15
+  {
+    height: 20vh;
+    width: 100%;
+    background-color: aqua;
+   margin: 0.5%;  
+  }
+  span
+  {
+    text-align: center;
+  }
+  .div
+  {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ffffffae;
+  }
+  #p
+  {
+    margin-top: 1vh;
+  }
+  @media screen and (min-width:763px) {
+    .container
+    {
+      height: 100vh;
+    }
+    .row1,.row2,.row3
+    {
+      height: 23vh;
+      width: 100%;
+      display: flex;
+    }
+    .div
+    {
+      margin-top: 0vh;
+      height: 4vh;
+    }
+    #p
+    {
+      margin-top: 0vh;
+    }
+    h3,p
+    {
+      margin-top: 0vh;
+    }
+  }
+    </style>
+    </head>
 <body>
-    <h1>Welcome to my page</h1>
+    <div class="container">
+        <div class="row1">
+            <div class="col1" style="background-color: blue;">
+                <span>
+                    <h3>Blue</h2>
+                        <p>#0000FF</p> 
+                </span>  
+                <div class="div">
+                        <p id="p" >Color Mixer</p>
+                <p id="p">Color Picker</p>
+                </div>
+            </div>
+            <div class="col2" style="background-color: red;">
+              <span>
+                <h3>Red</h2>
+                    <p>#FF0000</p> 
+            </span>  
+            <div class="col1-1">
+                <div class="div">
+                    <p id="p">Color Mixer</p>
+                <p id="p">Color Picker</p>
+                </div>
+            </div>
+            </div>
+            <div class="col3">
+              <span>
+                <h3>Green</h2>
+                    <p>#008000</p> 
+            </span>  
+            <div class="div">
+                <p id="p">Color Mixer</p>
+            <p id="p">Color Picker</p>
+            </div>
+            </div>
+            <div class="col4" style="background-color: yellow;">
+              <span>
+                <h3>yellow</h2>
+                    <p>#FF0000</p> 
+            </span>  
+            <div class="div">
+                <p id="p">Color Mixer</p>
+            <p id="p">Color Picker</p>
+            </div>
+            </div>
+            <div class="col5" style="background-color: orange;">
+              <span>
+                <h3>Orange</h2>
+                    <p>#FFA500</p> 
+            </span> 
+            <div class="div">
+                <p id="p">Color Mixer</p>
+            <p id="p">Color Picker</p>
+            </div> 
+            </div>
+        </div>
+        <div class="row2">
+            <!-- <div class="col5">
+              <span>
+                <h3>Pink</h2>
+                    <p>#FFC0CB</p> 
+            </span>  
+            <div class="div">
+                <p id="p">Color Mixer</p>
+            <p id="p">Color Picker</p>
+            </div>
+            </div> -->
+            <div class="col6" style="background-color: violet;">
+              <span>
+                <h3>Violet</h2>
+                    <p>#EE82EE</p> 
+            </span>  
+            <div class="div" >
+                <p id="p">Color Mixer</p>
+            <p id="p">Color Picker</p>
+            </div>
+            </div>
+            <div class="col7" style="background-color: aqua;">
+              <span>
+                <h3>Aqua</h2>
+                    <p>#00FFFF</p> 
+            </span>
+            <div class="div">
+                <p id="p">Color Mixer</p>
+            <p id="p">Color Picker</p>
+            </div>
+            </div>
+            <div class="col8" style="background-color: azure;">
+              <span>
+                <h3 style=" color: black;">Azure</h2>
+                    <p style=" color: black;">#F0FFFF</p> 
+            </span>
+            <div class="div">
+                <p id="p">Color Mixer</p>
+            <p id="p">Color Picker</p>
+            </div>
+            </div>
+            <div class="col9" style="background-color: blueviolet;">
+              <span>
+                <h3>Blue Violet</h2>
+                    <p>#8A2BE2</p> 
+            </span> 
+            <div class="div">
+                <p id="p">Color Mixer</p>
+            <p id="p">Color Picker</p>
+            </div>
+            </div>
+            <div class="col10" style="background-color: chocolate;">
+              <span>
+                <h3>Chocolate</h2>
+                    <p>#D2691E</p> 
+            </span>
+            <div class="div">
+                <p id="p">Color Mixer</p>
+            <p id="p">Color Picker</p>
+            </div> 
+            </div>
+        </div>
+        <div class="row3">
+            <div class="col11" style="background-color: coral;">
+            <span>  <h3>Coral</h2>
+              <p>#FF7F50</p> </span>
+        
+        <div class="div">
+            <p id="p">Color Mixer</p>
+        <p id="p">Color Picker</p>
+        </div>
+            </div>
+            <div class="col12" style="background-color: cornflowerblue;">
+              <span>
+                <h3>Cornflowerblue</h2>
+                    <p>#6495ED</p> 
+            </span>
+            <div class="div">
+                <p id="p">Color Mixer</p>
+            <p id="p">Color Picker</p>
+            </div>
+            </div>
+            <div class="col13" style="background-color: crimson;">
+              <span>
+                <h3>Crimson</h2>
+                    <p>#DC143C</p> 
+            </span> 
+            <div class="div">
+                <p id="p">Color Mixer</p>
+            <p id="p">Color Picker</p>
+            </div> 
+            </div>
+            <div class="col14" style="background-color: fuchsia;">
+              <span>
+                <h3>Fuchsia</h2>
+                    <p>#FF00FF</p> 
+            </span> 
+            <div class="div">
+                <p id="p">Color Mixer</p>
+            <p id="p">Color Picker</p>
+            </div> 
+            </div>
+            <div class="col15" style="background-color: gold;">
+              <span>
+                <h3>Gold</h2>
+                    <p>#FFD700</p> 
+            </span> 
+            <div class="div">
+                <p id="p">Color Mixer</p>
+            <p id="p">Color Picker</p>
+            </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
