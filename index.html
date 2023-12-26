@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box-Model(26-12) By SND</title>
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    
+    <style>
+             @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+        *
+        {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        .container
+        {
+            height: 100vh;
+            width: 100%;
+            background-color: white;  
+            padding-top: 10vh;    
+            padding-left: 1%;
+            text-align: center;
+        }
+        .row1
+        {
+            height: 10vh;
+            width: 30%;
+            background-color: blueviolet;
+            border-radius: 10px;
+            margin: 10px;
+        }
+        .row2
+        {
+            height: 10vh;
+            width: 30%;
+            background-color: aqua;
+            border-radius: 10px;
+            margin: 10px;
+            margin-left: 20%;
+            margin-top: 7vh;
+        }
+        .row3
+        {
+            height: 10vh;
+            width: 30%;
+            background-color: rgb(48, 201, 48);
+            border-radius: 10px;
+            margin: 10px;
+            margin-left: 35%;
+            margin-top: 7vh;
+        }
+        .row4
+        {
+            height: 10vh;
+            width: 30%;
+            background-color: rgb(235, 67, 156);
+            border-radius: 10px;
+            margin: 10px;
+            margin-left: 50%;
+            margin-top: 7vh;
+        }
+        .row5
+        {
+            height: 10vh;
+            width: 30%;
+            background-color: yellow;
+            border-radius: 10px;
+            margin: 10px;
+            margin-left: 65%;
+            margin-top: 7vh;    
+        }
+        h2
+        {
+            position: relative;
+            top: -4.5vh;
+            color: white;
+        }
+       span
+       {
+        position: relative;
+        top: -6.5vh;
+        font-size: 30px;
+       }
+       
+    @media screen and (min-width:768px){
+        .container
+        {
+            width: 50%;
+            margin-left: 25%;
+        }
+        .row1,.row2,.row3,.row4,.row5
+        {
+            width: 13%;
+        }
+        h2
+        {
+            position: relative;
+            top: -4.5vh;
+            color: white;
+        }
+    }
+    @media screen and (min-width:400px) and (max-width:450px){
+        h2
+        {
+            position: relative;
+            top: -2vh;
+            color: white;
+        }
+    }
+   
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row1">
+           <span>&#128526</span>
+            <h2>Step1</h2>
+        </div>
+        <div class="row2">
+            <span>&#128512</span>
+            <h2>Step2</h2>
+        </div>
+        <div class="row3">
+            <span>&#128519</span>
+            <h2>Step3</h2>
+        </div>
+        <div class="row4">
+            <span>&#128527</span>
+            <h2>Step4</h2>
+        </div> 
+        <div class="row5">
+            <span>&#128531</span>
+            <h2>Step5</h2>
+        </div>
+    </div>
+</body>
+</html>
