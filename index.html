@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flag</title>
+    <style>
+        body
+        {
+            background-color: aqua;
+        }
+        .container
+        {
+            height: 45vh;
+            width: 30%;
+            /* background-color: black; */
+            margin-left: 35%;
+            margin-top: 5vh;
+        }
+        .row1
+        {
+            height: 15vh;
+            width: 100%;
+            background-color: orangered;
+            border-radius: 5px;
+        }
+        .row2
+        {
+            height: 15vh;
+            width: 100%;
+            background-color: rgb(255, 255, 255);
+            
+            border-radius: 5px;
+        }
+        .row3
+        {
+            height: 15vh;
+            width: 100%;
+            background-color: green;
+            
+            border-radius: 5px;
+        }
+        .row
+        {
+            height: 90vh;
+            width: 2vh;
+            background-color: black;
+            margin-top: -45vh;
+            margin-left: 35%;
+            border-radius: 15px;
+        }
+        img
+        {
+            height: 14vh;
+            margin-left: 40%;
+            margin-top: 0.5vh;
+        }
+        .col-remover
+        {
+            height: 5vh;
+            width: 5%;
+            background-color: #ffffff;
+            position: absolute;
+            margin-top: -65vh;
+            margin-left: 41.7%;
+        }
+        .sphere
+        {
+            height: 2.5vh;
+            width: 2.5vh;
+            background-color: black;
+            margin-top: -92vh;
+            margin-left: 34.85%;
+            border-radius: 50%;
+        }
+        @media screen and (max-width:430px) {
+
+
+            *
+            {
+                margin: 0;
+                padding: 0;
+            }
+            body{
+                background-color: #ffffff;
+            }
+            .container
+            {
+                width: 90%;
+                margin-left: 4%;
+            }
+            .row1,.row2,.row3
+            {
+                height: 10vh;
+            }
+            img
+            {
+                height: 8vh;
+                margin-top: 1vh;
+            }
+            .row
+            {
+                margin-left: 1%;
+            }
+            .col-remover
+            {
+                height: 2vh;
+                margin-top: -73vh;
+                margin-left: 36%;
+                background-color: rgb(255, 255, 255);
+            }
+            .sphere
+            {
+                margin-left: 0.5%;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row1"></div>
+        <div class="row2">
+            <div class="circle">
+                <img src="./ashoka chakra.jpg"  alt="">
+            </div>
+        </div>
+        <div class="row3"></div>
+    </div>
+    <div class="row"></div>
+    <div class="col-remover"></div>
+    <div class="sphere"></div>
+</body>
+</html>
